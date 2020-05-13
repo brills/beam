@@ -42,6 +42,7 @@ from setuptools.command.test import test
 
 
 class mypy(Command):
+
   user_options = []
 
   def initialize_options(self):
